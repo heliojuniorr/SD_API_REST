@@ -54,7 +54,7 @@ namespace APIREST.Controllers
             return fundador;
         }
         [AcceptVerbs("GET")]
-        [Route("ConsultarUsuarios")]
+        [Route("ConsultarFundadores")]
         public List<FounderModel> ConsultarFundadores()
         {
             CarregarFundadores();
