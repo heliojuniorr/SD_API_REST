@@ -19,7 +19,7 @@ namespace APIREST.Controllers
             return "Fundador cadastrado com sucesso!";
         }
         [AcceptVerbs("PUT")]
-        [Route("AlterarUsuario")]
+        [Route("AlterarFundador")]
         public string AlterarFundador(FounderModel fundador)
         {
             listaFundadores.Where(n => n.Codigo ==
