@@ -12,7 +12,7 @@ namespace APIREST.Models
         private string startups;
         public FounderModel() { }
         public FounderModel
-        (int codigo, string nome, string login)
+        (int codigo, string nome, string startups)
         {
             this.Codigo = codigo
             ;
